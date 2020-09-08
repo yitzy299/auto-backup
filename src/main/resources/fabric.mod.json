@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/yitzy299/auto-backup"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/AutoBackup/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ducktools.backup.AutoBackup"
+    ]
+  },
+  "mixins": [
+    "blocklogger.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": ">=0.20.1",
+    "minecraft": "1.16.2"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
