@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "auto-backup",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Auto Backup",
+  "description": "Auto backup mod made by yitzy299",
   "authors": [
-    "Me!"
+    "yitzy299"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://mods.ducktools.tech",
     "sources": "https://github.com/yitzy299/auto-backup"
   },
 
@@ -19,13 +19,9 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ducktools.backup.AutoBackup"
+      "tech.ducktools.backup.AutoBackup"
     ]
   },
-  "mixins": [
-    "blocklogger.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.9.1",
     "fabric": ">=0.20.1",
